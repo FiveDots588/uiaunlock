@@ -1,0 +1,1503 @@
+{
+  "schema": "uiaunlock/report/v1",
+  "generated_at": "2026-11-04T19:18:52+08:00",
+  "host": {
+    "python_bits": 64,
+    "is_admin": false,
+    "screen_reader": true,
+    "uiautomation_available": true
+  },
+  "target": {
+    "pid": 12345,
+    "hwnd": 1193046,
+    "hwnd_hex": "0x123456",
+    "exe_path": "<WXWORK_EXE>",
+    "exe_version": "5.0.13.6005",
+    "process_name": "WXWork.exe",
+    "bitness": 32,
+    "host_bitness": 64,
+    "window": {
+      "hwnd": 1193046,
+      "hwnd_hex": "0x123456",
+      "class": "WeWorkWindow",
+      "title": "企业微信",
+      "visible": true,
+      "iconic": false,
+      "rect": [
+        318,
+        141,
+        1500,
+        963
+      ],
+      "width": 1182,
+      "height": 822
+    },
+    "framework": {
+      "id": "duilib",
+      "label": "DuiLib 自绘（DirectUI）",
+      "evidence": [
+        "已加载 duilib.dll（DuiLib 自绘库）",
+        "窗口类 'WeWorkWindow' 是企业微信主窗口"
+      ]
+    },
+    "modules": [
+      {
+        "name": "WXWork.exe",
+        "path": "<WXWORK_DIR>\\WXWork.exe",
+        "base": "0xBF0000",
+        "size": 287080448
+      },
+      {
+        "name": "ntdll.dll",
+        "path": "<WINDIR>\\SYSTEM32\\ntdll.dll",
+        "base": "0x772F0000",
+        "size": 1843200
+      },
+      {
+        "name": "KERNEL32.DLL",
+        "path": "<WINDIR>\\System32\\KERNEL32.DLL",
+        "base": "0x76A30000",
+        "size": 983040
+      },
+      {
+        "name": "KERNELBASE.dll",
+        "path": "<WINDIR>\\System32\\KERNELBASE.dll",
+        "base": "0x76480000",
+        "size": 3072000
+      },
+      {
+        "name": "WINTRUST.dll",
+        "path": "<WINDIR>\\System32\\WINTRUST.dll",
+        "base": "0x75C70000",
+        "size": 405504
+      },
+      {
+        "name": "msvcrt.dll",
+        "path": "<WINDIR>\\System32\\msvcrt.dll",
+        "base": "0x76390000",
+        "size": 815104
+      },
+      {
+        "name": "RPCRT4.dll",
+        "path": "<WINDIR>\\System32\\RPCRT4.dll",
+        "base": "0x75FE0000",
+        "size": 815104
+      },
+      {
+        "name": "adj.dll",
+        "path": "<WXWORK_DIR>\\adj.dll",
+        "base": "0x74A10000",
+        "size": 81920
+      },
+      {
+        "name": "ptree.dll",
+        "path": "<WXWORK_DIR>\\ptree.dll",
+        "base": "0x749E0000",
+        "size": 176128
+      },
+      {
+        "name": "CRYPT32.dll",
+        "path": "<WINDIR>\\System32\\CRYPT32.dll",
+        "base": "0x75500000",
+        "size": 1191936
+      },
+      {
+        "name": "ilink_live_lite_wrapper.dll",
+        "path": "<WXWORK_DIR>\\ilink_live_lite_wrapper.dll",
+        "base": "0x749D0000",
+        "size": 40960
+      },
+      {
+        "name": "ucrtbase.dll",
+        "path": "<WINDIR>\\System32\\ucrtbase.dll",
+        "base": "0x76110000",
+        "size": 1126400
+      },
+      {
+        "name": "ADVAPI32.dll",
+        "path": "<WINDIR>\\System32\\ADVAPI32.dll",
+        "base": "0x76E60000",
+        "size": 552960
+      },
+      {
+        "name": "sechost.dll",
+        "path": "<WINDIR>\\System32\\sechost.dll",
+        "base": "0x75EF0000",
+        "size": 466944
+      },
+      {
+        "name": "WS2_32.dll",
+        "path": "<WINDIR>\\System32\\WS2_32.dll",
+        "base": "0x76DF0000",
+        "size": 442368
+      },
+      {
+        "name": "bcrypt.dll",
+        "path": "<WINDIR>\\System32\\bcrypt.dll",
+        "base": "0x76BA0000",
+        "size": 118784
+      },
+      {
+        "name": "USER32.dll",
+        "path": "<WINDIR>\\System32\\USER32.dll",
+        "base": "0x76EF0000",
+        "size": 1990656
+      },
+      {
+        "name": "win32u.dll",
+        "path": "<WINDIR>\\System32\\win32u.dll",
+        "base": "0x76BF0000",
+        "size": 114688
+      },
+      {
+        "name": "GDI32.dll",
+        "path": "<WINDIR>\\System32\\GDI32.dll",
+        "base": "0x76CB0000",
+        "size": 167936
+      },
+      {
+        "name": "gdi32full.dll",
+        "path": "<WINDIR>\\System32\\gdi32full.dll",
+        "base": "0x75630000",
+        "size": 978944
+      },
+      {
+        "name": "msvcp_win.dll",
+        "path": "<WINDIR>\\System32\\msvcp_win.dll",
+        "base": "0x75E60000",
+        "size": 528384
+      },
+      {
+        "name": "etw.dll",
+        "path": "<WINDIR>\\System32\\etw.dll",
+        "base": "0x76460000",
+        "size": 114688
+      },
+      {
+        "name": "ole32.dll",
+        "path": "<WINDIR>\\System32\\ole32.dll",
+        "base": "0x76230000",
+        "size": 1409024
+      },
+      {
+        "name": "DuiLib.dll",
+        "path": "<WXWORK_DIR>\\DuiLib.dll",
+        "base": "0x71170000",
+        "size": 4894720
+      },
+      {
+        "name": "USERENV.dll",
+        "path": "<WINDIR>\\SYSTEM32\\USERENV.dll",
+        "base": "0x74BD0000",
+        "size": 167936
+      },
+      {
+        "name": "combase.dll",
+        "path": "<WINDIR>\\System32\\combase.dll",
+        "base": "0x76780000",
+        "size": 2793472
+      },
+      {
+        "name": "SHELL32.dll",
+        "path": "<WINDIR>\\System32\\SHELL32.dll",
+        "base": "0x74DD0000",
+        "size": 6774784
+      },
+      {
+        "name": "VERSION.dll",
+        "path": "<WINDIR>\\SYSTEM32\\VERSION.dll",
+        "base": "0x74C00000",
+        "size": 32768
+      },
+      {
+        "name": "OLEAUT32.dll",
+        "path": "<WINDIR>\\System32\\OLEAUT32.dll",
+        "base": "0x76CE0000",
+        "size": 655360
+      },
+      {
+        "name": "SHLWAPI.dll",
+        "path": "<WINDIR>\\System32\\SHLWAPI.dll",
+        "base": "0x760B0000",
+        "size": 335872
+      },
+      {
+        "name": "MSWSOCK.dll",
+        "path": "<WINDIR>\\System32\\MSWSOCK.dll",
+        "base": "0x76C30000",
+        "size": 348160
+      },
+      {
+        "name": "IMM32.dll",
+        "path": "<WINDIR>\\System32\\IMM32.dll",
+        "base": "0x76BC0000",
+        "size": 151552
+      },
+      {
+        "name": "AudioDumper.dll",
+        "path": "<WXWORK_DIR>\\AudioDumper.dll",
+        "base": "0x71120000",
+        "size": 319488
+      },
+      {
+        "name": "libcurl.ssl1.1.dll",
+        "path": "<WXWORK_DIR>\\libcurl.ssl1.1.dll",
+        "base": "0x71090000",
+        "size": 544768
+      },
+      {
+        "name": "WLDAP32.dll",
+        "path": "<WINDIR>\\System32\\WLDAP32.dll",
+        "base": "0x75F70000",
+        "size": 389120
+      },
+      {
+        "name": "gdiplus.dll",
+        "path": "<WINDIR>\\WinSxS\\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.29648.1000_none_1c6416bfea9c29f6\\gdiplus.dll",
+        "base": "0x736C0000",
+        "size": 1552384
+      },
+      {
+        "name": "tencent.mm.pbc.dll",
+        "path": "<WXWORK_DIR>\\tencent.mm.pbc.dll",
+        "base": "0x70F60000",
+        "size": 1236992
+      },
+      {
+        "name": "zlib1.dll",
+        "path": "<WXWORK_DIR>\\zlib1.dll",
+        "base": "0x62E80000",
+        "size": 139264
+      },
+      {
+        "name": "libcrypto-1_1.dll",
+        "path": "<WXWORK_DIR>\\libcrypto-1_1.dll",
+        "base": "0x70810000",
+        "size": 2568192
+      },
+      {
+        "name": "d3d9.dll",
+        "path": "<WINDIR>\\SYSTEM32\\d3d9.dll",
+        "base": "0x70DD0000",
+        "size": 1589248
+      },
+      {
+        "name": "skunicode.dll",
+        "path": "<WXWORK_DIR>\\skunicode.dll",
+        "base": "0x70190000",
+        "size": 1060864
+      },
+      {
+        "name": "skia.dll",
+        "path": "<WXWORK_DIR>\\skia.dll",
+        "base": "0x702A0000",
+        "size": 5685248
+      },
+      {
+        "name": "PocoFoundation.dll",
+        "path": "<WXWORK_DIR>\\PocoFoundation.dll",
+        "base": "0x70040000",
+        "size": 1351680
+      },
+      {
+        "name": "ilink_live_lite.dll",
+        "path": "<WXWORK_DIR>\\ilink_live_lite.dll",
+        "base": "0x70D10000",
+        "size": 737280
+      },
+      {
+        "name": "owl.dll",
+        "path": "<WXWORK_DIR>\\owl.dll",
+        "base": "0x6FF50000",
+        "size": 983040
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "<WXWORK_DIR>\\MSVCP140.dll",
+        "base": "0x6FEE0000",
+        "size": 446464
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "<WXWORK_DIR>\\VCRUNTIME140.dll",
+        "base": "0x71C90000",
+        "size": 86016
+      },
+      {
+        "name": "ICONV.dll",
+        "path": "<WXWORK_DIR>\\ICONV.dll",
+        "base": "0x6FDF0000",
+        "size": 937984
+      },
+      {
+        "name": "MSIMG32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\MSIMG32.dll",
+        "base": "0x6E1A0000",
+        "size": 24576
+      },
+      {
+        "name": "skshaper.dll",
+        "path": "<WXWORK_DIR>\\skshaper.dll",
+        "base": "0x6FD20000",
+        "size": 839680
+      },
+      {
+        "name": "MSVCP140_CODECVT_IDS.dll",
+        "path": "<WXWORK_DIR>\\MSVCP140_CODECVT_IDS.dll",
+        "base": "0x6FD10000",
+        "size": 28672
+      },
+      {
+        "name": "MSVCP140_ATOMIC_WAIT.dll",
+        "path": "<WXWORK_DIR>\\MSVCP140_ATOMIC_WAIT.dll",
+        "base": "0x6FCF0000",
+        "size": 73728
+      },
+      {
+        "name": "OLEACC.dll",
+        "path": "<WINDIR>\\SYSTEM32\\OLEACC.dll",
+        "base": "0x72380000",
+        "size": 356352
+      },
+      {
+        "name": "COMCTL32.dll",
+        "path": "<WINDIR>\\WinSxS\\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.29648.1000_none_eb7923da9009b028\\COMCTL32.dll",
+        "base": "0x71DC0000",
+        "size": 2277376
+      },
+      {
+        "name": "dbghelp.dll",
+        "path": "<WXWORK_DIR>\\dbghelp.dll",
+        "base": "0x6FB60000",
+        "size": 1609728
+      },
+      {
+        "name": "libssl-1_1.dll",
+        "path": "<WXWORK_DIR>\\libssl-1_1.dll",
+        "base": "0x6FAD0000",
+        "size": 552960
+      },
+      {
+        "name": "USP10.dll",
+        "path": "<WINDIR>\\SYSTEM32\\USP10.dll",
+        "base": "0x6FAB0000",
+        "size": 94208
+      },
+      {
+        "name": "WININET.dll",
+        "path": "<WINDIR>\\SYSTEM32\\WININET.dll",
+        "base": "0x73D00000",
+        "size": 2187264
+      },
+      {
+        "name": "dwmapi.dll",
+        "path": "<WINDIR>\\SYSTEM32\\dwmapi.dll",
+        "base": "0x6FA80000",
+        "size": 147456
+      },
+      {
+        "name": "IPHLPAPI.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\IPHLPAPI.DLL",
+        "base": "0x74A30000",
+        "size": 151552
+      },
+      {
+        "name": "OPENGL32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\OPENGL32.dll",
+        "base": "0x6F990000",
+        "size": 917504
+      },
+      {
+        "name": "ilink2.dll",
+        "path": "<WXWORK_DIR>\\ilink2.dll",
+        "base": "0x6F410000",
+        "size": 5722112
+      },
+      {
+        "name": "GLU32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\GLU32.dll",
+        "base": "0x6F370000",
+        "size": 270336
+      },
+      {
+        "name": "dxcore.dll",
+        "path": "<WINDIR>\\SYSTEM32\\dxcore.dll",
+        "base": "0x6F3C0000",
+        "size": 270336
+      },
+      {
+        "name": "CRYPTBASE.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\CRYPTBASE.DLL",
+        "base": "0x74450000",
+        "size": 40960
+      },
+      {
+        "name": "windows.storage.dll",
+        "path": "<WINDIR>\\SYSTEM32\\windows.storage.dll",
+        "base": "0x72E40000",
+        "size": 7507968
+      },
+      {
+        "name": "SHCORE.dll",
+        "path": "<WINDIR>\\System32\\SHCORE.dll",
+        "base": "0x75B90000",
+        "size": 872448
+      },
+      {
+        "name": "MSASN1.dll",
+        "path": "<WINDIR>\\SYSTEM32\\MSASN1.dll",
+        "base": "0x72B90000",
+        "size": 61440
+      },
+      {
+        "name": "SafeWrapper32.dll",
+        "path": "<PROGRAM_FILES_X86>\\360\\360Safe\\safemon\\SafeWrapper32.dll",
+        "base": "0x6E190000",
+        "size": 40960
+      },
+      {
+        "name": "safemon.dll",
+        "path": "<PROGRAM_FILES_X86>\\360\\360Safe\\safemon\\safemon.dll",
+        "base": "0x6DF20000",
+        "size": 2400256
+      },
+      {
+        "name": "PSAPI.DLL",
+        "path": "<WINDIR>\\System32\\PSAPI.DLL",
+        "base": "0x76CA0000",
+        "size": 24576
+      },
+      {
+        "name": "NETAPI32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\NETAPI32.dll",
+        "base": "0x744F0000",
+        "size": 86016
+      },
+      {
+        "name": "WKSCLI.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\WKSCLI.DLL",
+        "base": "0x6DF00000",
+        "size": 77824
+      },
+      {
+        "name": "NETUTILS.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\NETUTILS.DLL",
+        "base": "0x744E0000",
+        "size": 45056
+      },
+      {
+        "name": "iNetSafe.dll",
+        "path": "<PROGRAM_FILES_X86>\\360\\360Safe\\safemon\\iNetSafe.dll",
+        "base": "0x6F290000",
+        "size": 757760
+      },
+      {
+        "name": "imagehlp.dll",
+        "path": "<WINDIR>\\System32\\imagehlp.dll",
+        "base": "0x76C10000",
+        "size": 114688
+      },
+      {
+        "name": "MPR.dll",
+        "path": "<WINDIR>\\SYSTEM32\\MPR.dll",
+        "base": "0x70BD0000",
+        "size": 102400
+      },
+      {
+        "name": "profapi.dll",
+        "path": "<WINDIR>\\SYSTEM32\\profapi.dll",
+        "base": "0x739B0000",
+        "size": 126976
+      },
+      {
+        "name": "uxtheme.dll",
+        "path": "<WINDIR>\\system32\\uxtheme.dll",
+        "base": "0x71CB0000",
+        "size": 528384
+      },
+      {
+        "name": "MSCTF.dll",
+        "path": "<WINDIR>\\System32\\MSCTF.dll",
+        "base": "0x770E0000",
+        "size": 1171456
+      },
+      {
+        "name": "kernel.appcore.dll",
+        "path": "<WINDIR>\\SYSTEM32\\kernel.appcore.dll",
+        "base": "0x744A0000",
+        "size": 86016
+      },
+      {
+        "name": "bcryptprimitives.dll",
+        "path": "<WINDIR>\\SYSTEM32\\bcryptprimitives.dll",
+        "base": "0x740B0000",
+        "size": 479232
+      },
+      {
+        "name": "client_extension.dll",
+        "path": "<WXWORK_DIR>\\client_extension.dll",
+        "base": "0x6EEC0000",
+        "size": 380928
+      },
+      {
+        "name": "ntmarta.dll",
+        "path": "<WINDIR>\\system32\\ntmarta.dll",
+        "base": "0x71D40000",
+        "size": 167936
+      },
+      {
+        "name": "WXWorkResources.dll",
+        "path": "<WXWORK_DIR>\\WXWorkResources.dll",
+        "base": "0x1B0A0000",
+        "size": 167047168
+      },
+      {
+        "name": "WXWorkStrings.dll",
+        "path": "<WXWORK_DIR>\\WXWorkStrings.dll",
+        "base": "0x24FF0000",
+        "size": 17051648
+      },
+      {
+        "name": "SspiCli.dll",
+        "path": "<WINDIR>\\SYSTEM32\\SspiCli.dll",
+        "base": "0x74B70000",
+        "size": 163840
+      },
+      {
+        "name": "NSI.dll",
+        "path": "<WINDIR>\\System32\\NSI.dll",
+        "base": "0x77210000",
+        "size": 28672
+      },
+      {
+        "name": "WINHTTP.dll",
+        "path": "<WINDIR>\\SYSTEM32\\WINHTTP.dll",
+        "base": "0x6E1B0000",
+        "size": 917504
+      },
+      {
+        "name": "dhcpcsvc6.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\dhcpcsvc6.DLL",
+        "base": "0x71860000",
+        "size": 94208
+      },
+      {
+        "name": "dhcpcsvc.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\dhcpcsvc.DLL",
+        "base": "0x74510000",
+        "size": 110592
+      },
+      {
+        "name": "DNSAPI.dll",
+        "path": "<WINDIR>\\SYSTEM32\\DNSAPI.dll",
+        "base": "0x73B70000",
+        "size": 1105920
+      },
+      {
+        "name": "DSPARSE.dll",
+        "path": "<WINDIR>\\SYSTEM32\\DSPARSE.dll",
+        "base": "0x74480000",
+        "size": 40960
+      },
+      {
+        "name": "clbcatq.dll",
+        "path": "<WINDIR>\\System32\\clbcatq.dll",
+        "base": "0x74CD0000",
+        "size": 602112
+      },
+      {
+        "name": "rasadhlp.dll",
+        "path": "<WINDIR>\\System32\\rasadhlp.dll",
+        "base": "0x71960000",
+        "size": 32768
+      },
+      {
+        "name": "netprofm.dll",
+        "path": "<WINDIR>\\System32\\netprofm.dll",
+        "base": "0x6E7D0000",
+        "size": 405504
+      },
+      {
+        "name": "fwpuclnt.dll",
+        "path": "<WINDIR>\\System32\\fwpuclnt.dll",
+        "base": "0x71A40000",
+        "size": 409600
+      },
+      {
+        "name": "npmproxy.dll",
+        "path": "<WINDIR>\\System32\\npmproxy.dll",
+        "base": "0x6F350000",
+        "size": 61440
+      },
+      {
+        "name": "iertutil.dll",
+        "path": "<WINDIR>\\SYSTEM32\\iertutil.dll",
+        "base": "0x72760000",
+        "size": 2347008
+      },
+      {
+        "name": "ondemandconnroutehelper.dll",
+        "path": "<WINDIR>\\SYSTEM32\\ondemandconnroutehelper.dll",
+        "base": "0x6DA20000",
+        "size": 81920
+      },
+      {
+        "name": "secur32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\secur32.dll",
+        "base": "0x745B0000",
+        "size": 40960
+      },
+      {
+        "name": "WINNSI.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\WINNSI.DLL",
+        "base": "0x6DA10000",
+        "size": 40960
+      },
+      {
+        "name": "winsta.dll",
+        "path": "<WINDIR>\\SYSTEM32\\winsta.dll",
+        "base": "0x74640000",
+        "size": 331776
+      },
+      {
+        "name": "DPAPI.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\DPAPI.DLL",
+        "base": "0x6D960000",
+        "size": 36864
+      },
+      {
+        "name": "CRYPTSP.dll",
+        "path": "<WINDIR>\\SYSTEM32\\CRYPTSP.dll",
+        "base": "0x74460000",
+        "size": 81920
+      },
+      {
+        "name": "rsaenh.dll",
+        "path": "<WINDIR>\\system32\\rsaenh.dll",
+        "base": "0x73940000",
+        "size": 204800
+      },
+      {
+        "name": "urlmon.dll",
+        "path": "<WINDIR>\\SYSTEM32\\urlmon.dll",
+        "base": "0x729A0000",
+        "size": 1671168
+      },
+      {
+        "name": "textinputframework.dll",
+        "path": "<WINDIR>\\SYSTEM32\\textinputframework.dll",
+        "base": "0x28D60000",
+        "size": 1060864
+      },
+      {
+        "name": "CoreMessaging.dll",
+        "path": "<WINDIR>\\SYSTEM32\\CoreMessaging.dll",
+        "base": "0x64B80000",
+        "size": 1073152
+      },
+      {
+        "name": "CoreUIComponents.dll",
+        "path": "<WINDIR>\\SYSTEM32\\CoreUIComponents.dll",
+        "base": "0x66D70000",
+        "size": 2605056
+      },
+      {
+        "name": "wintypes.dll",
+        "path": "<WINDIR>\\SYSTEM32\\wintypes.dll",
+        "base": "0x723E0000",
+        "size": 1003520
+      },
+      {
+        "name": "SogouTSF.ime",
+        "path": "<WINDIR>\\System32\\SogouTSF.ime",
+        "base": "0x6C650000",
+        "size": 4657152
+      },
+      {
+        "name": "WINMM.dll",
+        "path": "<WINDIR>\\System32\\WINMM.dll",
+        "base": "0x74600000",
+        "size": 200704
+      },
+      {
+        "name": "schannel.dll",
+        "path": "<WINDIR>\\System32\\schannel.dll",
+        "base": "0x6D970000",
+        "size": 598016
+      },
+      {
+        "name": "SogouPY.ime",
+        "path": "<WINDIR>\\system32\\SogouPY.ime",
+        "base": "0x2A220000",
+        "size": 15798272
+      },
+      {
+        "name": "ncrypt.dll",
+        "path": "<WINDIR>\\SYSTEM32\\ncrypt.dll",
+        "base": "0x6D8D0000",
+        "size": 176128
+      },
+      {
+        "name": "NTASN1.dll",
+        "path": "<WINDIR>\\SYSTEM32\\NTASN1.dll",
+        "base": "0x6D8A0000",
+        "size": 163840
+      },
+      {
+        "name": "ncryptsslp.dll",
+        "path": "<WINDIR>\\system32\\ncryptsslp.dll",
+        "base": "0x6D860000",
+        "size": 233472
+      },
+      {
+        "name": "cryptnet.dll",
+        "path": "<WINDIR>\\System32\\cryptnet.dll",
+        "base": "0x6D930000",
+        "size": 176128
+      },
+      {
+        "name": "SGDeskControl.dll",
+        "path": "<SOGOU_DIR>\\Components\\SGDeskControl\\1.0.0.2397\\SGDeskControl.dll",
+        "base": "0x6D7B0000",
+        "size": 671744
+      },
+      {
+        "name": "biz_bundle.dll",
+        "path": "<SOGOU_DIR>\\Components\\biz_center\\1.0.0.3357\\biz_bundle.dll",
+        "base": "0x6C430000",
+        "size": 2166784
+      },
+      {
+        "name": "Resource.dll",
+        "path": "<SOGOU_DIR>\\16.10.0.5813\\Resource.dll",
+        "base": "0x2F5E0000",
+        "size": 4841472
+      },
+      {
+        "name": "game_center.dll",
+        "path": "<SOGOU_DIR>\\Components\\game_center\\1.0.0.2353\\game_center.dll",
+        "base": "0x6D500000",
+        "size": 602112
+      },
+      {
+        "name": "d2d1.dll",
+        "path": "<WINDIR>\\SYSTEM32\\d2d1.dll",
+        "base": "0x60760000",
+        "size": 5304320
+      },
+      {
+        "name": "dwrite.dll",
+        "path": "<WINDIR>\\SYSTEM32\\dwrite.dll",
+        "base": "0x6E840000",
+        "size": 4751360
+      },
+      {
+        "name": "TextShaping.dll",
+        "path": "<WINDIR>\\SYSTEM32\\TextShaping.dll",
+        "base": "0x717B0000",
+        "size": 688128
+      },
+      {
+        "name": "ichat_bundle.dll",
+        "path": "<SOGOU_DIR>\\Components\\IChat\\1.0.2.3356\\ichat_bundle.dll",
+        "base": "0x6C1F0000",
+        "size": 2347008
+      },
+      {
+        "name": "PROPSYS.dll",
+        "path": "<WINDIR>\\SYSTEM32\\PROPSYS.dll",
+        "base": "0x725A0000",
+        "size": 819200
+      },
+      {
+        "name": "isgpet_bundle.dll",
+        "path": "<SOGOU_DIR>\\Components\\isgpet\\1.0.2.3152\\isgpet_bundle.dll",
+        "base": "0x6D470000",
+        "size": 589824
+      },
+      {
+        "name": "PicFace.dll",
+        "path": "<SOGOU_DIR>\\Components\\PicFace\\1.1.0.3184\\PicFace.dll",
+        "base": "0x6D0B0000",
+        "size": 3923968
+      },
+      {
+        "name": "COMDLG32.dll",
+        "path": "<WINDIR>\\System32\\COMDLG32.dll",
+        "base": "0x77220000",
+        "size": 761856
+      },
+      {
+        "name": "systembeautify_bundle.dll",
+        "path": "<SOGOU_DIR>\\Components\\systembeautify\\1.0.2.2868\\systembeautify_bundle.dll",
+        "base": "0x6CF90000",
+        "size": 438272
+      },
+      {
+        "name": "WindowsCodecs.dll",
+        "path": "<WINDIR>\\SYSTEM32\\WindowsCodecs.dll",
+        "base": "0x6EF20000",
+        "size": 2351104
+      },
+      {
+        "name": "wlanapi.dll",
+        "path": "<WINDIR>\\SYSTEM32\\wlanapi.dll",
+        "base": "0x6E750000",
+        "size": 471040
+      },
+      {
+        "name": "MobileNetworking.dll",
+        "path": "<WINDIR>\\SYSTEM32\\MobileNetworking.dll",
+        "base": "0x6EEA0000",
+        "size": 106496
+      },
+      {
+        "name": "wcprobe.dll",
+        "path": "<WXWORK_DIR>\\wcprobe.dll",
+        "base": "0x354E0000",
+        "size": 6348800
+      },
+      {
+        "name": "gpapi.dll",
+        "path": "<WINDIR>\\SYSTEM32\\gpapi.dll",
+        "base": "0x6D900000",
+        "size": 126976
+      },
+      {
+        "name": "webio.dll",
+        "path": "<WINDIR>\\SYSTEM32\\webio.dll",
+        "base": "0x69CB0000",
+        "size": 630784
+      },
+      {
+        "name": "wbemprox.dll",
+        "path": "<WINDIR>\\system32\\wbem\\wbemprox.dll",
+        "base": "0x6EE60000",
+        "size": 57344
+      },
+      {
+        "name": "wbemcomn.dll",
+        "path": "<WINDIR>\\SYSTEM32\\wbemcomn.dll",
+        "base": "0x6EDF0000",
+        "size": 430080
+      },
+      {
+        "name": "wbemsvc.dll",
+        "path": "<WINDIR>\\system32\\wbem\\wbemsvc.dll",
+        "base": "0x6EDD0000",
+        "size": 69632
+      },
+      {
+        "name": "fastprox.dll",
+        "path": "<WINDIR>\\system32\\wbem\\fastprox.dll",
+        "base": "0x6ECF0000",
+        "size": 856064
+      },
+      {
+        "name": "amsi.dll",
+        "path": "<WINDIR>\\SYSTEM32\\amsi.dll",
+        "base": "0x6ECD0000",
+        "size": 86016
+      },
+      {
+        "name": "dataexchange.dll",
+        "path": "<WINDIR>\\system32\\dataexchange.dll",
+        "base": "0x6E6F0000",
+        "size": 323584
+      },
+      {
+        "name": "twinapi.appcore.dll",
+        "path": "<WINDIR>\\system32\\twinapi.appcore.dll",
+        "base": "0x6CAD0000",
+        "size": 2039808
+      },
+      {
+        "name": "WWKDevice.dll",
+        "path": "<WXWORK_DIR>\\WWKDevice.dll",
+        "base": "0x6BF40000",
+        "size": 2789376
+      },
+      {
+        "name": "SETUPAPI.dll",
+        "path": "<WINDIR>\\System32\\SETUPAPI.dll",
+        "base": "0x75730000",
+        "size": 4530176
+      },
+      {
+        "name": "WwkAVFactory.dll",
+        "path": "<WXWORK_DIR>\\WwkAVFactory.dll",
+        "base": "0x6B720000",
+        "size": 8482816
+      },
+      {
+        "name": "WWVoipEngine.dll",
+        "path": "<WXWORK_DIR>\\WWVoipEngine.dll",
+        "base": "0x6AC90000",
+        "size": 11038720
+      },
+      {
+        "name": "WeEffect.dll",
+        "path": "<WXWORK_DIR>\\WeEffect.dll",
+        "base": "0x69EA0000",
+        "size": 14569472
+      },
+      {
+        "name": "WeVision.dll",
+        "path": "<WXWORK_DIR>\\WeVision.dll",
+        "base": "0x63CA0000",
+        "size": 6950912
+      },
+      {
+        "name": "AVRT.dll",
+        "path": "<WINDIR>\\SYSTEM32\\AVRT.dll",
+        "base": "0x354D0000",
+        "size": 36864
+      },
+      {
+        "name": "cfgmgr32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\cfgmgr32.dll",
+        "base": "0x72B40000",
+        "size": 262144
+      },
+      {
+        "name": "MMDevApi.dll",
+        "path": "<WINDIR>\\System32\\MMDevApi.dll",
+        "base": "0x6E4D0000",
+        "size": 561152
+      },
+      {
+        "name": "DEVOBJ.dll",
+        "path": "<WINDIR>\\System32\\DEVOBJ.dll",
+        "base": "0x71D70000",
+        "size": 151552
+      },
+      {
+        "name": "winmmbase.dll",
+        "path": "<WINDIR>\\SYSTEM32\\winmmbase.dll",
+        "base": "0x6E370000",
+        "size": 159744
+      },
+      {
+        "name": "wdmaud.drv",
+        "path": "<WINDIR>\\SYSTEM32\\wdmaud.drv",
+        "base": "0x6DE50000",
+        "size": 266240
+      },
+      {
+        "name": "wdmaud2.drv",
+        "path": "<WINDIR>\\SYSTEM32\\wdmaud2.drv",
+        "base": "0x6E340000",
+        "size": 135168
+      },
+      {
+        "name": "AUDIOSES.DLL",
+        "path": "<WINDIR>\\SYSTEM32\\AUDIOSES.DLL",
+        "base": "0x63B10000",
+        "size": 1564672
+      },
+      {
+        "name": "msacm32.drv",
+        "path": "<WINDIR>\\SYSTEM32\\msacm32.drv",
+        "base": "0x6EE90000",
+        "size": 45056
+      },
+      {
+        "name": "MSACM32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\MSACM32.dll",
+        "base": "0x6DE30000",
+        "size": 102400
+      },
+      {
+        "name": "midimap.dll",
+        "path": "<WINDIR>\\SYSTEM32\\midimap.dll",
+        "base": "0x6EE80000",
+        "size": 32768
+      },
+      {
+        "name": "WTSAPI32.dll",
+        "path": "<WINDIR>\\SYSTEM32\\WTSAPI32.dll",
+        "base": "0x74BA0000",
+        "size": 131072
+      },
+      {
+        "name": "msftedit.dll",
+        "path": "<WINDIR>\\SYSTEM32\\msftedit.dll",
+        "base": "0x63840000",
+        "size": 2899968
+      },
+      {
+        "name": "Windows.Globalization.dll",
+        "path": "<WINDIR>\\System32\\Windows.Globalization.dll",
+        "base": "0x63650000",
+        "size": 1982464
+      },
+      {
+        "name": "globinputhost.dll",
+        "path": "<WINDIR>\\SYSTEM32\\globinputhost.dll",
+        "base": "0x6DE00000",
+        "size": 159744
+      },
+      {
+        "name": "Bcp47Langs.dll",
+        "path": "<WINDIR>\\SYSTEM32\\Bcp47Langs.dll",
+        "base": "0x6DDA0000",
+        "size": 319488
+      },
+      {
+        "name": "napinsp.dll",
+        "path": "<WINDIR>\\system32\\napinsp.dll",
+        "base": "0x71C20000",
+        "size": 73728
+      },
+      {
+        "name": "winrnr.dll",
+        "path": "<WINDIR>\\System32\\winrnr.dll",
+        "base": "0x71AF0000",
+        "size": 57344
+      },
+      {
+        "name": "nlansp_c.dll",
+        "path": "<WINDIR>\\system32\\nlansp_c.dll",
+        "base": "0x71AD0000",
+        "size": 106496
+      },
+      {
+        "name": "wshbth.dll",
+        "path": "<WINDIR>\\system32\\wshbth.dll",
+        "base": "0x71AB0000",
+        "size": 73728
+      },
+      {
+        "name": "FirewallAPI.dll",
+        "path": "<WINDIR>\\System32\\FirewallAPI.dll",
+        "base": "0x6DC10000",
+        "size": 507904
+      },
+      {
+        "name": "fwbase.dll",
+        "path": "<WINDIR>\\System32\\fwbase.dll",
+        "base": "0x6DBD0000",
+        "size": 233472
+      },
+      {
+        "name": "FWPolicyIOMgr.dll",
+        "path": "<WINDIR>\\System32\\FWPolicyIOMgr.dll",
+        "base": "0x6DB70000",
+        "size": 319488
+      },
+      {
+        "name": "powrprof.dll",
+        "path": "<WINDIR>\\SYSTEM32\\powrprof.dll",
+        "base": "0x69C50000",
+        "size": 352256
+      },
+      {
+        "name": "UMPDC.dll",
+        "path": "<WINDIR>\\SYSTEM32\\UMPDC.dll",
+        "base": "0x69C30000",
+        "size": 90112
+      },
+      {
+        "name": "resourcepolicyclient.dll",
+        "path": "<WINDIR>\\SYSTEM32\\resourcepolicyclient.dll",
+        "base": "0x64760000",
+        "size": 77824
+      },
+      {
+        "name": "Windows.UI.dll",
+        "path": "<WINDIR>\\System32\\Windows.UI.dll",
+        "base": "0x64570000",
+        "size": 1101824
+      },
+      {
+        "name": "uiautomationcore.dll",
+        "path": "<WINDIR>\\System32\\uiautomationcore.dll",
+        "base": "0x5F0C0000",
+        "size": 3694592
+      },
+      {
+        "name": "appresolver.dll",
+        "path": "<WINDIR>\\System32\\appresolver.dll",
+        "base": "0x61620000",
+        "size": 618496
+      },
+      {
+        "name": "LINKINFO.dll",
+        "path": "<WINDIR>\\SYSTEM32\\LINKINFO.dll",
+        "base": "0x60CA0000",
+        "size": 45056
+      },
+      {
+        "name": "Windows.FileExplorer.Common.dll",
+        "path": "<WINDIR>\\System32\\Windows.FileExplorer.Common.dll",
+        "base": "0x724E0000",
+        "size": 622592
+      },
+      {
+        "name": "Windows.StateRepositoryPS.dll",
+        "path": "<WINDIR>\\System32\\Windows.StateRepositoryPS.dll",
+        "base": "0x70CB0000",
+        "size": 319488
+      },
+      {
+        "name": "windows.staterepositoryclient.dll",
+        "path": "<WINDIR>\\SYSTEM32\\windows.staterepositoryclient.dll",
+        "base": "0x71C50000",
+        "size": 225280
+      },
+      {
+        "name": "devenum.dll",
+        "path": "<WINDIR>\\System32\\devenum.dll",
+        "base": "0x61EE0000",
+        "size": 114688
+      },
+      {
+        "name": "msdmo.dll",
+        "path": "<WINDIR>\\SYSTEM32\\msdmo.dll",
+        "base": "0x69170000",
+        "size": 36864
+      },
+      {
+        "name": "wmpf_host_export.dll",
+        "path": "<USERPROFILE>\\AppData\\Roaming\\Tencent\\WXWork\\wmpf_Applet\\2.1.4.11676\\wmpf_Applet\\host\\wmpf_host_export.dll",
+        "base": "0x5FD50000",
+        "size": 3039232
+      },
+      {
+        "name": "sxs.dll",
+        "path": "<WINDIR>\\SYSTEM32\\sxs.dll",
+        "base": "0x6E2A0000",
+        "size": 544768
+      },
+      {
+        "name": "ntdll.dll",
+        "path": "<WINDIR>\\SYSTEM32\\ntdll.dll",
+        "base": "0x7FF8B3E00000",
+        "size": 2506752
+      },
+      {
+        "name": "wow64.dll",
+        "path": "<WINDIR>\\System32\\wow64.dll",
+        "base": "0x7FF8B3230000",
+        "size": 344064
+      },
+      {
+        "name": "wow64base.dll",
+        "path": "<WINDIR>\\System32\\wow64base.dll",
+        "base": "0x7FF8B37D0000",
+        "size": 45056
+      },
+      {
+        "name": "wow64win.dll",
+        "path": "<WINDIR>\\System32\\wow64win.dll",
+        "base": "0x7FF8B3430000",
+        "size": 536576
+      },
+      {
+        "name": "wow64con.dll",
+        "path": "<WINDIR>\\System32\\wow64con.dll",
+        "base": "0x7FF8B2C50000",
+        "size": 98304
+      },
+      {
+        "name": "wow64cpu.dll",
+        "path": "<WINDIR>\\System32\\wow64cpu.dll",
+        "base": "0x772E0000",
+        "size": 36864
+      }
+    ],
+    "module_names": [
+      "WXWork.exe",
+      "ntdll.dll",
+      "KERNEL32.DLL",
+      "KERNELBASE.dll",
+      "WINTRUST.dll",
+      "msvcrt.dll",
+      "RPCRT4.dll",
+      "adj.dll",
+      "ptree.dll",
+      "CRYPT32.dll",
+      "ilink_live_lite_wrapper.dll",
+      "ucrtbase.dll",
+      "ADVAPI32.dll",
+      "sechost.dll",
+      "WS2_32.dll",
+      "bcrypt.dll",
+      "USER32.dll",
+      "win32u.dll",
+      "GDI32.dll",
+      "gdi32full.dll",
+      "msvcp_win.dll",
+      "etw.dll",
+      "ole32.dll",
+      "DuiLib.dll",
+      "USERENV.dll",
+      "combase.dll",
+      "SHELL32.dll",
+      "VERSION.dll",
+      "OLEAUT32.dll",
+      "SHLWAPI.dll",
+      "MSWSOCK.dll",
+      "IMM32.dll",
+      "AudioDumper.dll",
+      "libcurl.ssl1.1.dll",
+      "WLDAP32.dll",
+      "gdiplus.dll",
+      "tencent.mm.pbc.dll",
+      "zlib1.dll",
+      "libcrypto-1_1.dll",
+      "d3d9.dll",
+      "skunicode.dll",
+      "skia.dll",
+      "PocoFoundation.dll",
+      "ilink_live_lite.dll",
+      "owl.dll",
+      "MSVCP140.dll",
+      "VCRUNTIME140.dll",
+      "ICONV.dll",
+      "MSIMG32.dll",
+      "skshaper.dll",
+      "MSVCP140_CODECVT_IDS.dll",
+      "MSVCP140_ATOMIC_WAIT.dll",
+      "OLEACC.dll",
+      "COMCTL32.dll",
+      "dbghelp.dll",
+      "libssl-1_1.dll",
+      "USP10.dll",
+      "WININET.dll",
+      "dwmapi.dll",
+      "IPHLPAPI.DLL",
+      "OPENGL32.dll",
+      "ilink2.dll",
+      "GLU32.dll",
+      "dxcore.dll",
+      "CRYPTBASE.DLL",
+      "windows.storage.dll",
+      "SHCORE.dll",
+      "MSASN1.dll",
+      "SafeWrapper32.dll",
+      "safemon.dll",
+      "PSAPI.DLL",
+      "NETAPI32.dll",
+      "WKSCLI.DLL",
+      "NETUTILS.DLL",
+      "iNetSafe.dll",
+      "imagehlp.dll",
+      "MPR.dll",
+      "profapi.dll",
+      "uxtheme.dll",
+      "MSCTF.dll",
+      "kernel.appcore.dll",
+      "bcryptprimitives.dll",
+      "client_extension.dll",
+      "ntmarta.dll",
+      "WXWorkResources.dll",
+      "WXWorkStrings.dll",
+      "SspiCli.dll",
+      "NSI.dll",
+      "WINHTTP.dll",
+      "dhcpcsvc6.DLL",
+      "dhcpcsvc.DLL",
+      "DNSAPI.dll",
+      "DSPARSE.dll",
+      "clbcatq.dll",
+      "rasadhlp.dll",
+      "netprofm.dll",
+      "fwpuclnt.dll",
+      "npmproxy.dll",
+      "iertutil.dll",
+      "ondemandconnroutehelper.dll",
+      "secur32.dll",
+      "WINNSI.DLL",
+      "winsta.dll",
+      "DPAPI.DLL",
+      "CRYPTSP.dll",
+      "rsaenh.dll",
+      "urlmon.dll",
+      "textinputframework.dll",
+      "CoreMessaging.dll",
+      "CoreUIComponents.dll",
+      "wintypes.dll",
+      "SogouTSF.ime",
+      "WINMM.dll",
+      "schannel.dll",
+      "SogouPY.ime",
+      "ncrypt.dll",
+      "NTASN1.dll",
+      "ncryptsslp.dll",
+      "cryptnet.dll",
+      "SGDeskControl.dll",
+      "biz_bundle.dll",
+      "Resource.dll",
+      "game_center.dll",
+      "d2d1.dll",
+      "dwrite.dll",
+      "TextShaping.dll",
+      "ichat_bundle.dll",
+      "PROPSYS.dll",
+      "isgpet_bundle.dll",
+      "PicFace.dll",
+      "COMDLG32.dll",
+      "systembeautify_bundle.dll",
+      "WindowsCodecs.dll",
+      "wlanapi.dll",
+      "MobileNetworking.dll",
+      "wcprobe.dll",
+      "gpapi.dll",
+      "webio.dll",
+      "wbemprox.dll",
+      "wbemcomn.dll",
+      "wbemsvc.dll",
+      "fastprox.dll",
+      "amsi.dll",
+      "dataexchange.dll",
+      "twinapi.appcore.dll",
+      "WWKDevice.dll",
+      "SETUPAPI.dll",
+      "WwkAVFactory.dll",
+      "WWVoipEngine.dll",
+      "WeEffect.dll",
+      "WeVision.dll",
+      "AVRT.dll",
+      "cfgmgr32.dll",
+      "MMDevApi.dll",
+      "DEVOBJ.dll",
+      "winmmbase.dll",
+      "wdmaud.drv",
+      "wdmaud2.drv",
+      "AUDIOSES.DLL",
+      "msacm32.drv",
+      "MSACM32.dll",
+      "midimap.dll",
+      "WTSAPI32.dll",
+      "msftedit.dll",
+      "Windows.Globalization.dll",
+      "globinputhost.dll",
+      "Bcp47Langs.dll",
+      "napinsp.dll",
+      "winrnr.dll",
+      "nlansp_c.dll",
+      "wshbth.dll",
+      "FirewallAPI.dll",
+      "fwbase.dll",
+      "FWPolicyIOMgr.dll",
+      "powrprof.dll",
+      "UMPDC.dll",
+      "resourcepolicyclient.dll",
+      "Windows.UI.dll",
+      "uiautomationcore.dll",
+      "appresolver.dll",
+      "LINKINFO.dll",
+      "Windows.FileExplorer.Common.dll",
+      "Windows.StateRepositoryPS.dll",
+      "windows.staterepositoryclient.dll",
+      "devenum.dll",
+      "msdmo.dll",
+      "wmpf_host_export.dll",
+      "sxs.dll",
+      "ntdll.dll",
+      "wow64.dll",
+      "wow64base.dll",
+      "wow64win.dll",
+      "wow64con.dll",
+      "wow64cpu.dll"
+    ],
+    "probes": [
+      {
+        "name": "OBJID_CLIENT",
+        "objid": -4,
+        "ok": true,
+        "lresult": 0,
+        "lresult_hex": "0x0",
+        "accessible_hr": 0,
+        "accessible_hr_hex": "0x0",
+        "accessible_ok": true
+      },
+      {
+        "name": "OBJID_WINDOW",
+        "objid": 0,
+        "ok": true,
+        "lresult": 0,
+        "lresult_hex": "0x0",
+        "accessible_hr": 0,
+        "accessible_hr_hex": "0x0",
+        "accessible_ok": true
+      },
+      {
+        "name": "UiaRootObjectId",
+        "objid": -25,
+        "ok": true,
+        "lresult": 0,
+        "lresult_hex": "0x0",
+        "accessible_hr": null,
+        "accessible_hr_hex": null,
+        "accessible_ok": false
+      }
+    ],
+    "nodes": {
+      "count": 2,
+      "backend": "uia",
+      "control_types": {
+        "WindowControl": 1,
+        "PaneControl": 1
+      },
+      "truncated": false,
+      "error": ""
+    },
+    "host": {
+      "is_admin": false,
+      "screen_reader": true,
+      "uiautomation_available": true
+    },
+    "notes": []
+  },
+  "providers": [
+    {
+      "id": "wxwork_duilib",
+      "display_name": "企业微信 DuiLib 无障碍开关（进程内）",
+      "declared_kind": "in_process",
+      "effective_kind": "in_process",
+      "confidence": 1.0
+    },
+    {
+      "id": "generic",
+      "display_name": "通用只读探查（不执行任何操作）",
+      "declared_kind": "unsupported",
+      "effective_kind": "unsupported",
+      "confidence": 0.05
+    },
+    {
+      "id": "cef_electron",
+      "display_name": "Chromium / CEF / Electron 启动期无障碍",
+      "declared_kind": "startup",
+      "effective_kind": "startup",
+      "confidence": 0.0
+    },
+    {
+      "id": "qt_startup",
+      "display_name": "Qt 5/6 启动期无障碍（QT_ACCESSIBILITY=1）",
+      "declared_kind": "startup",
+      "effective_kind": "unsupported",
+      "confidence": 0.0
+    }
+  ],
+  "exports": {},
+  "plan": null,
+  "unlock": null,
+  "verify": null,
+  "verdict": {
+    "available": false,
+    "nodes": 2,
+    "backend": "uia",
+    "summary": "UIA 树不可用：仅 2 个节点。窗口很可能只提供了一个空的根对象，典型原因是无障碍特性开关（feature gate）关闭",
+    "confidence": 0.98,
+    "kind": "in_process",
+    "kind_label": "进程内可热开",
+    "provider": "wxwork_duilib",
+    "provider_confidence": 1.0,
+    "next_steps": [
+      "运行 `uiaunlock unlock --pid 12345` 尝试进程内解锁"
+    ],
+    "evidence_level": "measured"
+  }
+}

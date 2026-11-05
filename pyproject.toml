@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uiaunlock"
+version = "0.1.0"
+description = "诊断并解锁 Windows 自绘 UI 框架（DuiLib / Qt / CEF 等）的 UIA 无障碍树"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "uiaunlock contributors" }]
+keywords = ["uia", "accessibility", "uiautomation", "windows", "duilib", "qt"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Systems Administration",
+]
+# 核心只用标准库 + ctypes；uiautomation 是可选增强（更准确的节点计数）
+dependencies = []
+
+[project.optional-dependencies]
+uia = ["uiautomation>=2.0.18"]
+dev = ["pytest>=7", "build>=1.0", "wheel"]
+
+[project.scripts]
+uiaunlock = "uiaunlock.cli:main"
+
+[project.urls]
+Homepage = "https://example.invalid/uiaunlock"
+Documentation = "https://example.invalid/uiaunlock/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uiaunlock = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+filterwarnings = ["ignore::DeprecationWarning"]
